@@ -1,0 +1,21 @@
+{
+  "name": "covidbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "12.16.1"
+  },
+  "keywords": [],
+  "author": "Andy Gans",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "country-emoji": "^1.5.0",
+    "telegraf": "^3.36.0"
+  }
+}
