@@ -1,5 +1,4 @@
 const countryEmoji = require('country-emoji');
-
 module.exports = (data) => {
     return `
     Страна: *${data.country}* ${countryEmoji.flag(data.country) || ''}
@@ -9,6 +8,10 @@ module.exports = (data) => {
     Под наблюдением: *${data.cases.active}*
     Вылеченные: *${data.cases.recovered}*
     Погибшие: *${data.deaths.total}*
+    ===========================
+    СМЕРТНОСТЬ: *${(data.deaths.total/data.cases.total*100).toFixed(2)}%*
     `
+    // СМЕРТНОСТЬ: *${data.procentDeath}%*
+    // const procentDeath = ${data.deaths.total}*${data.cases.total}/100*100;
 }
 
