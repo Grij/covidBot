@@ -252,7 +252,7 @@
     Country["Venezuela, Bolivarian Republic of"] = "VE";
     Country["Virgin Islands, British"] = "VG";
     Country["Virgin Islands, U.S."] = "VI";
-    Country["Вьетнам"] = "Viet Nam";
+    Country["Вьетнам"] = "Vietnam";
     Country["Ванау"] = "Vanuatu";
     Country["Wallis and Futuna"] = "WF";
     Country["Самоа"] = "Samoa";
