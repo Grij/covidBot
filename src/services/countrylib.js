@@ -77,7 +77,7 @@
     Country["Algeria"] = "DZ";
     Country["Эквадор"] = "Ecuador";
     Country["Эстония"] = "Estonia";
-    Country["Египт"] = "Egypt";
+    Country["Египет"] = "Egypt";
     Country["Western Sahara"] = "EH";
     Country["Eritrea"] = "ER";
     Country["Испания"] = "Spain";
@@ -110,7 +110,7 @@
     Country["Гонг Конг"] = "Hong Kong";
     Country["Heard Island and McDonald Islands"] = "HM";
     Country["Гондурас"] = "Honduras";
-    Country["Croatia"] = "HR";
+    Country["Хорватия"] = "Croatia";
     Country["Гаити"] = "Haiti";
     Country["Венгрия"] = "Hungary";
     Country["Индонезия"] = "Indonesia";
@@ -152,7 +152,7 @@
     Country["Марокко"] = "Morocco";
     Country["Монако"] = "Monaco";
     Country["Молдова"] = "Moldova";
-    Country["Монтенегро"] = "Montenegro";
+    Country["Черногория"] = "Montenegro";
     Country["Saint Martin (French part)"] = "MF";
     Country["Мадагаскар"] = "Madagascar";
     Country["Marshall Islands"] = "MH";
@@ -170,7 +170,7 @@
     Country["Мальдивы"] = "Maldives";
     Country["Малави"] = "Malawi";
     Country["Мексика"] = "Mexico";
-    Country["Малазия"] = "Malaysia";
+    Country["Малайзия"] = "Malaysia";
     Country["Мозамбик"] = "Mozambique";
     Country["Намибия"] = "Namibia";
     Country["New Caledonia"] = "NC";
