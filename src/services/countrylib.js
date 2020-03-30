@@ -258,7 +258,7 @@
     Country["Самоа"] = "Samoa";
     Country["Емен"] = "Yemen";
     Country["Mayotte"] = "YT";
-    Country["South Africa"] = "ZA";
+    Country["ЮАР"] = "South Africa";
     Country["Замбия"] = "Zambia";
     Country["Зимбабве"] = "Zimbabwe";
 
