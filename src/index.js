@@ -13,12 +13,11 @@ bot.start(ctx => ctx.reply
 Пришли мне страну, в которой ты хочешь узнать официальну статистику заболевших на Латинице
 
 НАПРИМЕР:
-Ukraine
-Russia
-Italy
-Spain
-Germany
-USA`
+Украина
+Россия
+Италия
+Испания
+Америка`
 ));
 // help
 bot.help(ctx=>ctx.reply(
