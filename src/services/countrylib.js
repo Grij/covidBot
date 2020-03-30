@@ -203,7 +203,7 @@
     Country["Réunion"] = "RE";
     Country["Румыния"] = "Romania";
     Country["Сербия"] = "Serbia";
-    Country["Россия"] = "Russian";
+    Country["Россия"] = "Russia";
     Country["Rwanda"] = "RW";
     Country["Саудовская аравия"] = "Saudi Arabia";
     Country["Соломоновы Острова"] = "Solomon Islands";
