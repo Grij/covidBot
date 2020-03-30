@@ -1,10 +1,10 @@
 const Telegraf = require('telegraf');
 const covidService = require('./services/covid');
 const formatCountryMsg = require('./messages/country');
-const tokenBot = '1051572303:AAGgzhb25npkHWfWQQAUGydXOOoE1bFyCxU'
+const tokenBot = '975634395:AAECoBepHcwQ3DREJG1kKpMq--1z9wNN6RI'
 const BOT_TOKEN = process.env.BOT_TOKEN || tokenBot;
-
 const bot = new Telegraf(BOT_TOKEN);
+const Country = require('./services/countrylib');
 
 // commands
 // start
@@ -27,10 +27,11 @@ bot.help(ctx=>ctx.reply(
 
 //handlers
 bot.hears(/.*/, async ctx => {
-    const {data} = await covidService.getByCountry(ctx.message.text);
+    // const msgRus = Country(ctx.message.text);
+    const {data} = await covidService.getByCountry(Country[ctx.message.text]);
 
     if(data && data.results === 0){
-      return ctx.reply('Нет такой страны :(');
+      return ctx.reply('Нет информации по этой стране :(');
     } 
     console.log();
     return ctx.replyWithMarkdown(formatCountryMsg(data.response[0]))
