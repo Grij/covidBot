@@ -1,4 +1,5 @@
 const countryEmoji = require('country-emoji');
+
 module.exports = (data) => {
     if (data.cases.new === null) {
      data.cases.new = '0'
